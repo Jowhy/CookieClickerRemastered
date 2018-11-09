@@ -24,7 +24,7 @@ Buttons
 		desc:Click this little cookie to get more cookies!
 		on click:anim icon wobble
 		on click:yield 1 cookie
-		icon:stuff/bunny.png
+		icon:stuff/cookie.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
