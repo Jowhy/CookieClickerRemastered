@@ -22,6 +22,7 @@ Buttons
 	*cookieButton
 		name:Make a cookie
 		desc:Click this to get a cookie
+		icon:https://github.com/Jowhy/CookieClickerRemastered/blob/master/CookieImage.png
 		on click:yield 1 cookie
 
 Resources
