@@ -23,8 +23,6 @@ Buttons
 		name:Make a cookie
 		desc:Click this to get a cookie
 		on click:yield 1 cookie
-		no text
-		no tooltip
 		class:bigButton hasFlares
 
 Resources
