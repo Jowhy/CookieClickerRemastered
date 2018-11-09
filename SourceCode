@@ -21,11 +21,15 @@ Layout
 Buttons
 	*cookieButton
 		name:Make a cookie
-		desc:Click this to get a cookie
-		icon:stuff/cookie.png
-		class:bigButton hasFlare
+		desc:Click this little cookie to get more cookies!
+		on click:anim icon wobble
 		on click:yield 1 cookie
-
+		icon:stuff/bunny.png
+		no text
+		class:bigButton hasFlares
+		icon class:shadowed
+		tooltip origin:bottom
+		tooltip class:red
 Resources
 	*cookie|cookies
 		name:Cookie|Cookies
