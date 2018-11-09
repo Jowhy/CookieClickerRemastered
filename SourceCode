@@ -1,0 +1,37 @@
+Let's make a game!
+	name:Cookie Clicker Remastered
+	author:Jonathan O. W.
+	desc:A remade version of cookie clicker with milk and coins.
+	created:08/11/2018
+	updated:08/11/2018
+	version:1.00
+
+Settings
+	building cost increase:110%
+	building cost refund:75%
+
+CSS
+	#game.filtersOn .thing.cantAfford.notOwned
+	{
+		filter:blur(3px);
+	}
+
+Layout
+	use default
+
+Buttons
+	*cookieButton
+		name:Make a cookie
+		desc:Click this to get a cookie
+		on click:yield 1 cookie
+		no text
+		no tooltip
+		class:bigButton hasFlares
+
+Resources
+	*cookie|cookies
+		name:Cookie|Cookies
+		desc:These are your cookies.  You can use them to purchase things.
+		class:noBackground
+		show earned
+		show max
